@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* https://www.youtube.com/watch?v=PwWHL3RyQgk -- using flex for header */
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+}
+
+header a img {
+    margin-left: 50px;
+}
+
+header input {
+    padding: 10px;
+    background-color: #F9F9F9;
+    color: #696969;
+    border: 1px solid #CCCCCC;
+    border-radius: 50px;
+    margin-right: 140px;
+    margin-top: 32px;
+    width: 300px;
+}
+
+/* header ul {
+    float: right;
+    margin-top: 21px;
+    margin-right: 10px;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+} */
+
+/* .right-nav {
+    float: right;
+} */
+
+/* .search { */
+    /* float: right; */
+    /* display:list-item; */
+    /* display: inline-flex; */
+    /* margin-top: 14px;
+    margin-right: 10px;
+} */
+/* .nav {
+    margin-top: 20px;
+    margin-right: 94px; */
+    /* display:list-item; */
+    /* display:inline-block; */
+    /* float: right; */
+    /* } */
+    
+    
+    
+    .profile-image {
+        width: 45px;
+        margin-right: 39px;
+        margin-top: 30px;
+    }
+    .profile-image:hover {
+        opacity: 0.4;
+    }
+    
+    
+
+body {
+    background-color: #EFEFEF;
+}
+
+.homepage-content{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    /* flex-basis: 400px; */
+}
+
+.container {
+    background-color: white;
+    margin: 5px;
+    margin-bottom: 20px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.container ul  {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.container ul li {
+    display: inline-block;
+}
+.likes {
+    float: right;
+}
+
+.image-container {
+    text-align: center;
+    /* background-color: yellow; */
+    width: 300px;
+    /* width: 30%; */
+    /* overflow: hidden; */
+    height: 230px;
+}
+
+.image {
+    /* width: 150px; */
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+    width: 300px;
+    height: 230px;
+    object-fit: cover;
+}

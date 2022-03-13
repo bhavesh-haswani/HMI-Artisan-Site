@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type:none;
+    text-decoration:none;
+}
+header {
+    background-color: white;
+    /* padding: 20px; */
+}
+
+header a img {
+    margin-left: 50px;
+}
+
+header input {
+    padding: 10px;
+    padding-left: 15px;
+    background-color: #F9F9F9;
+    color: #696969;
+    border: 1px solid #CCCCCC;
+    border-radius: 50px;
+    width: 300px;
+    font-size: initial;
+}
+
+header ul {
+    float: right;
+    margin-top: 21px;
+    margin-right: 10px;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.nav a {
+    border: 1px solid #CCCCCC;
+    border-radius: 50px;
+    color: black;
+    padding: 10px;
+}
+
+.nav a:hover {
+    background-color: #4792DE;
+    color: white;
+}
+/* .back {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    /* left: 100%; */
+/*} */
+.back img {
+    width: 40px;
+    filter: invert(100%);
+}
+.container {
+    /* width: 100%; */
+    /* height: 70vh; */
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.left-container {
+    float: left;
+    /* max-width: 850px; */
+    max-width: 60vw;
+}
+.photo-frame {
+    /* width: 50%; */
+    /* height: 100%; */
+    /* width: 850px; */
+    max-width: 100%;
+    height: 70vh;
+    max-height: 80vh;
+    text-align: center;
+    /* padding: 50px; */
+    /* margin-top: 30px; */
+    background-color: red;
+    background-image: radial-gradient(rgb(77, 77, 77), black);
+    /* max-width: 720px; */
+}
+.photo-frame img{
+    /* max-width: 650px; */
+    max-width: 90%;
+    /* max-height: 100%; */
+    max-height: 80%;
+
+    /* https://www.youtube.com/watch?v=JenSL-4cJvE used this video to center image */
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter:drop-shadow(.75em .75em 1em);
+    /* float: right; */
+    object-fit:contain;
+}
+
+.photo-details{
+    background-color: #F9F9F9;
+    /* height: 400px; */
+    /* padding: 20px; */
+    /* width: 400px; */
+}
+.title {
+    background-color: #c7c7c7;
+}
+.photo-details .heading {
+    padding: 20px;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.photo-details .likes {
+    padding: 20px;
+    float: right;
+    margin-right: 30px;
+}
+.likes .likes-no {
+    position: relative;
+    left: 5px;
+    bottom: 5px;
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.description {
+    font-size: 25px;
+    background-color: #e6e6e6;
+    padding: 10px;
+}
+/* .horizontal-line {
+    margin-top: 10px;
+    width: 100%;
+} */
+.right-container {
+    float:right;
+    /* width: 450px; */
+    /*   for responsive */
+    max-width: 30vw;
+    /* height: 100%; */
+    height: 70vh;
+    background-color: #F9F9F9; 
+}
+
+.right-container .right-heading {
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.right-container .related-photos {
+    margin-top: 10px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* padding: 20px;    */
+    /* background-color: yellow; */
+}
+
+.related-photos .x-container {
+    /* background-color: red; */
+    /* margin: 5px;  */
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 200px;
+    height: 120px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+/* .x-container ul  { */
+    /* padding: 10px; */
+/* }
+
+.x-container ul li {
+    display: inline-block;
+}
+.caption {
+    float: left;
+}
+.likes {
+    float: right;
+} */
+
+.image-container {
+    text-align: center;
+    /* background-color: yellow; */
+    width: 200px;
+    /* width: 30%; */
+    overflow: hidden;
+    height: 120px;
+}
+
+.image-container .image {
+    /* width: 150px; */
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+    width: 200px;
+    height: 120px;
+    object-fit:cover;
+}
+body {
+    /* background-color: #575757; */
+    background-color: #EFEFEF;
+}
